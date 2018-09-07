@@ -1,0 +1,15 @@
+//Object Literal
+let person = {
+    firstName: 'Mehedi',
+    lastName: 'Hasan',
+    age: 28,
+    education: ['SSC', 'HSC', 'BSc'],
+    fullName: function () {
+        return this.firstName+ " " + this.lastName;
+    },
+    address: {
+        street: "33/1, Moneshwar Road",
+        city: 'Dhaka',
+        division: 'Dhaka'
+    }
+}
